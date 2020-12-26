@@ -1,0 +1,149 @@
+*{
+    font-family: Ubuntu;
+    margin: 0px;
+}
+header{
+  
+    display: flex;
+  border: 2px solid rgb(255, 255, 255);
+     margin: 2px;
+    padding:4px;
+    justify-content:space-between;
+ /*position:fixed;*/
+}
+#tittle{
+    font-size: 1.75rem;
+    font-weight: 500;
+    margin: 10px;
+}
+#selection{
+    flex:2;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    border: 2px solid rgb(255, 255, 255);
+    padding:4px;
+    
+    font-size: 1.1rem;
+    align-items: center;
+    margin-right: 20px;
+}
+#sorting_selection,#size_selection,select{
+     height: 30px;
+     width: 150px;
+     margin-right: 50px;
+    border:none;
+    background-color: rgb(255, 255, 255);
+    font-size: 1.15rem;
+}
+select#size_selection{
+    margin-right: 30px;
+    width:40px;
+}
+#size,#shuffle{
+    font-size: 1.15rem;
+    margin-right: 10px;
+}
+select:hover,#shuffle{
+    cursor: pointer;
+}
+button#shuffle{
+    border:none;
+    text-align:center;
+    background-color: white;
+}
+#sortchart{
+    height: 50vh;
+    border:2px solid grey;
+    background-color: grey;
+    display: flex;
+    align-items: flex-end;
+}
+#sortcontrols{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:center;
+    margin: 5px;
+    padding: 12px;
+}
+#start:hover{
+    cursor: pointer;
+    background-color: rgb(164, 164, 165);
+}
+button#start{
+    font-size: 25px;
+    font-weight: 700;
+    border: 2px solid grey;
+    border-radius: 12px;
+    width:100px;
+    text-align:center;
+    border: none;
+    
+}
+select#speed{
+    width:60px;
+    margin-left: 30px;
+}
+#keycolors{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content:space-around;
+        padding: 10px;
+        font-weight: 540;
+        margin-bottom: 10px;
+
+}
+.colorboxsorted{
+    background-color: rgb(14, 212, 14);
+    height:17px;
+    width: 17px;;
+   /* margin-left: 150px;*/
+    margin-right: 5px;
+}
+.colorboxComparing{
+    background-color: rgb(230, 255, 4);
+    height:17px;
+    width: 17px;;
+   /* margin-left: 50px;*/
+    margin-right: 5px;
+}
+.colorboxSwapping{
+    background-color: rgb(255, 0, 0);
+    height:17px;
+   /* margin-left: 50px;*/
+    margin-right: 5px;
+    width: 17px;;
+}
+#sortingformation{
+    display: flex;
+  flex-wrap: wrap;
+  margin: 5px;;
+    justify-content:space-around;
+}
+#summary{
+    width:40%;
+    
+    text-align: left;
+   /*margin-left: 130px;
+    //margin-right: 130px;*/
+}
+#sortheading{
+     margin-top: 50px;
+     margin-bottom: 20px;
+}
+#perfomance{
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.colors{
+     display:flex;
+     flex-wrap: wrap;
+     justify-items: cneter;
+     justify-content: space-between;
+}
+#line{
+    width:1px;
+background-color: rgba(0, 0, 0, 0.507);
+}

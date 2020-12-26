@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div>    <header id="header">
+        <div id="tittle">
+            <p>Sort Visualizer</p>
+        </div>
+
+        <div id="selection">
+
+            <div>
+                <button id="shuffle">Shuffle</button>
+            </div>
+
+            <div>
+                <select id="size_selection">
+                    <option class="sorting" value="5"> 5 </option>
+                    <option class="sorting" value="10" > 10 </option>
+                    <option class="sorting" value="25">25</option>
+                    <option class="sorting" value="50 " selected>50</option>
+                    <option class="sorting" value="100">100</option>
+                    <option class="sorting" value="100">500</option>
+                </select>
+            </div>
+            <div>
+                <p id="size">Size</p>
+            </div>
+            <div>
+                <select id="sorting_selection">
+                    <option class="sorting" value="Bubble_sort"> Bubble Sort </option>
+                    <option class="sorting" value="Insertion_sort">Insertion Sort</option>
+                    <option class="sorting" value="Selection_sort">Selection Sort</option>
+                    <option class="sorting" value="Merge_sort">Merge sort</option>
+                    <option class="sorting" value="Quick_sort">Quick Sort</option>
+
+                </select>
+            </div>
+        </div>
+    </header>
+    <div id="mainbody"></div>
+    <div id="sortchart">
+    </div>
+    <div id="sortcontrols">
+        <button id="start"> Start</button>
+        <select id="speed">
+            <option class="sorting" value="500">0.5x</option>
+            <option class="sorting" value="250" selected>1x</option>
+            <option class="sorting" value="100">1.5x</option>
+            <option class="sorting" value="50">2x </option>
+        </select>
+
+    </div>
+    <div id="keycolors">
+        <div class="colors">
+            <div class="colorboxsorted"></div>
+            <div id="green">Sorted</div>
+        </div>
+        <div class="colors">
+            <div class="colorboxComparing"></div>
+            <span id="yellow">Comparing</span>
+        </div>
+        <div class="colors" >
+            <div class="colorboxSwapping"></div>
+            <span id="red">Swapping</span>
+        </div>
+    </div>
+    <hr>
+    <div id="sortingformation">
+        <div id="summary">
+            <h2 id="sortheading"> Bubble Sort </h2>
+            <p id="contentofsummary">
+                Bubble Sort is a simple sorting algorithm that repeatedly steps through the list, compares adjacent
+                elements and swaps them if they are in the wrong order.The pass through the list is repeated until the
+                list is sorted. The algorithm, which is a comparison sort, is named for the way smaller or larger
+                elements (bubble) to the top of the list. Although the algorithm is simple, it is too slow and
+                impractical for most problems
+            </p>
+        </div>
+        <div id="line">
+
+        </div>
+        <div id="">
+            <h2 id="perfomance">Performance</h2>
+            <table>
+                <tr>
+                    <td>Worst-case time complexity </td>
+                    <th>(<em id="wc1">n</em><sup id="wc2">2</sup>)</th>
+                </tr>
+                <tr>
+                    <td>Average time complexity </td>
+                    <th>(<em id="ac1"> n</em><sup id="ac2">2</sup>)</th>
+                </tr>
+                <tr>
+                    <td>Best-case time complexity </td>
+                    <th>(<em id="bc1">n</em><sup id="bc2"></sup>)</th>
+                </tr>
+                <tr>
+                    <td>Worst-case space complexity </td>
+                    <th>(<em id="sc">1</em><sup></sup>)</th>
+                </tr>
+            </table>
+        </div>
+    </div>
+    </div>
+</div>
+
+    <script src="script.js"></script>
+</body>
+</body>
+
+</html>
